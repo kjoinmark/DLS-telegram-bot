@@ -12,13 +12,15 @@ import telebot
 
 API_TOKEN = '5592278771:AAHjv-KggUzfHsBRpktcX5Lwd9K4VTnMJ4Q' # put here our telegram api token
 
-WEBHOOK_HOST = '35.239.10.73'
+WEBHOOK_HOST = 'https://ef-telegram-bot.herokuapp.com/'
 WEBHOOK_PORT = 8443  # 443, 80, 88 or 8443 (port need to be 'open')
 WEBHOOK_LISTEN = '0.0.0.0'  # In some VPS you may need to put here the IP addr
 
 WEBHOOK_SSL_CERT = '/home/matrs011/ssl_key/url_cert.pem'  # Path to the ssl certificate
 WEBHOOK_SSL_PRIV = '/home/matrs011/ssl_key/url_private.key'  # Path to the ssl private key
 
+WEBHOOK_PATH = f'/webhook/{API_TOKEN}'
+WEBHOOK_URL = f'{WEBHOOK_HOST}{WEBHOOK_PATH}'
 
 
 WEBHOOK_URL_BASE = "https://{}:{}".format(WEBHOOK_HOST, WEBHOOK_PORT)
