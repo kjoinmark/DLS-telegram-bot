@@ -10,7 +10,7 @@ from aiohttp import web
 
 import telebot
 
-API_TOKEN = '5592278771:AAHjv-KggUzfHsBRpktcX5Lwd9K4VTnMJ4Q' # put here our telegram api token
+API_TOKEN = 'MY_Token' # put here our telegram api token
 
 WEBHOOK_HOST = 'https://ef-telegram-bot.herokuapp.com/'
 WEBHOOK_PORT = 8443  # 443, 80, 88 or 8443 (port need to be 'open')
