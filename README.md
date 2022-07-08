@@ -14,7 +14,7 @@ style_transfer_bot.py - реализация асинхронного телег
 
 Для реализации была взята готовая модель из tensorflow hub (https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2) 
 
-Основываясь на модели из magenta (https://github.com/magenta/magenta/tree/main/magenta/models/arbitrary_image_stylization)
+Модель была разработана основываясь на модели из magenta (https://github.com/magenta/magenta/tree/main/magenta/models/arbitrary_image_stylization)
 
 и публикации:
 Exploring the structure of a real-time, arbitrary neural artistic stylization network. Golnaz Ghiasi, Honglak Lee, Manjunath Kudlur, Vincent Dumoulin, Jonathon Shlens, Proceedings of the British Machine Vision Conference (BMVC), 2017.
