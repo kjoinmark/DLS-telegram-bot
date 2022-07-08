@@ -1,5 +1,7 @@
 # DLS-telegram-bot
 
+Ссылка на бота: https://web.telegram.org/k/#@EF_dls_bot
+
 style_model.py - реализация своего GAN для переноса стилей
 
 Реализация алгоритма переноса стиля, предложенного Леоном Гатисом в 2015 году, с помощью Keras и Tensorflow.
