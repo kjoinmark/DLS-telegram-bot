@@ -5,7 +5,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 from telebot.async_telebot import AsyncTeleBot
 import asyncio
 
-API_TOKEN = '5592278771:AAHjv-KggUzfHsBRpktcX5Lwd9K4VTnMJ4Q'  # put here our telegram api token
+API_TOKEN = 'TOKEN'  # put here our telegram api token
 
 bot = AsyncTeleBot(API_TOKEN)
 
